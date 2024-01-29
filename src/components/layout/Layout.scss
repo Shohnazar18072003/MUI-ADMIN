@@ -1,0 +1,56 @@
+.admin-logo {
+  padding: 24px;
+  color: white;
+  font-size: 20px;
+
+}
+.admin-aside{
+   height: 100vh;
+   background-color: #2196f3 !important;
+   border-right: 2px solid red;
+   font-size: larger;
+   font-weight: 500;
+}
+
+.menu-container {
+   background-color: #2196f3 !important;
+   color : #263238 ;
+   font-size: larger;
+   font-weight: 500;
+}
+
+.admin-main{
+   height: calc(100vh - 64px);
+   overflow: auto;
+}
+
+.admin-header{
+   background-color: #2196f3 !important;
+   border-bottom: 2px solid red;
+   svg{
+      fill: white;
+   }
+}
+
+.logout_btn {
+   display: flex;
+   align-items: center;
+   padding: 0;
+   font-size: 15px;
+   width: 100%;
+   text-align: left;
+   border-radius: 10px;
+   background-color: transparent;
+   color: rgba(255, 255, 255, 0.65);
+   font-family: "Mulish", sans-serif;
+
+   div {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+   }
+ }
+ 
+ .logout_btn:hover {
+   color: red !important;
+ }
